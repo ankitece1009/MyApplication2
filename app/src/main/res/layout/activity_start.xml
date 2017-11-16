@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_height="match_parent"
+    android:background="@color/darkOrange"
+    tools:context="com.example.admin.myapplication.StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हिंदी डिक्शनरी"
+        android:textStyle="bold"
+        android:textSize="28sp"/>
+<Button
+    android:onClick="onClickPlayGame"
+    android:text="शब्द खेल"
+    android:textAlignment="center"
+    android:background="@color/lightgreen"
+    android:textStyle="italic|bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    <Button
+        android:onClick="onClickAddWord"
+        android:text="शब्द जोड़े "
+        android:textAlignment="center"
+        android:background="@color/lightgreen"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
